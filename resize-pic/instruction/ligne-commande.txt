@@ -1,0 +1,27 @@
+//npm
+npm init
+
+// git
+git init
+git remote add origin https://github.com/123Nell123/resize-pic.git
+
+// configuration package.json
+
+
+//installation module
+npm i prettier eslint typescript 
+npm express
+npm nodemon
+
+
+
+//module pour dev seulement
+npm i --save-dev jasmine typescript 
+npm i --save-dev @types/jasmine
+npm i --save-dev @types/express @types/nodemon 
+
+//configuring
+npx tsc --init
+
+//.gitignore
+

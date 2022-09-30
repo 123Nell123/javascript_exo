@@ -1,0 +1,27 @@
+# consigne
+
+vous allez créer une API qui peut être utilisée de deux manières différentes. 
+
+1) En tant que simple API d'espace réservé, la première vous permet de placer des images dans votre frontend avec la taille définie via les paramètres d'URL (et une stylisation supplémentaire si vous le souhaitez) pour un prototypage rapide. 
+
+2) Le deuxième cas d'utilisation est une bibliothèque pour servir des versions correctement mises à l'échelle de vos images au front-end afin de réduire la taille de chargement de la page. Plutôt que de devoir redimensionner et télécharger plusieurs copies de la même image à utiliser sur votre site, l'API que vous créez gérera le redimensionnement et la diffusion des images stockées pour vous.
+
+Vous allez configurer votre projet Node.js à partir de zéro, installer toutes les dépendances et écrire toutes les configurations nécessaires pour que vos dépendances fonctionnent ensemble. Même si le projet en cours de construction est assez simple, la façon dont vous configurez ce projet sera suffisamment évolutive pour passer à une solution au niveau de l'entreprise à l'avenir. Imaginez avoir besoin de traiter des centaines d'images avec plusieurs tailles de vignettes pour une solution de commerce électronique. Ce projet fournit les blocs de construction pour ce niveau de fonctionnalité.
+En plus de configurer et de créer la fonctionnalité, vous utiliserez les meilleures pratiques du secteur pour vous assurer que votre code est aussi évolutif que votre architecture. En utilisant TypeScript, les tests unitaires, le linting et le formatage, vous écrirez du code facile à lire, maintenable, moins sujet aux erreurs et plus facile à déboguer. Au niveau de l'entreprise, il devient possible que des centaines de personnes aient besoin d'interagir avec votre code, donc être capable de travailler dans le respect des normes est impératif pour votre succès.
+
+## **Project Summary**
+
+Ce projet vise à vous donner un scénario réel dans lequel vous lirez et écrirez sur votre disque via un serveur express Node.js plutôt qu'une base de données. Le projet que vous créez a deux objectifs : vous préparer à la configuration d'un code et d'une architecture évolutifs pour des projets réels et lier certains des intergiciels et utilitaires les plus populaires trouvés dans les projets Node.js. Ce projet touche à peine la surface de ce qui est possible, mais prouvera votre capacité à utiliser ce que vous avez appris dans des scénarios réels.
+Pour ce projet, refactorisez et testez autant que possible pendant la construction. Étant donné que vous utilisez TypeScript et une bibliothèque inconnue, il est parfois plus facile d'écrire et de construire en JS simple pour voir ce que vos fonctions renvoient ; rappelez-vous que votre soumission doit être en TypeScript. Au fur et à mesure que vos compétences s'améliorent, taper dans TypeScript vous semblera plus intuitif. Assurez-vous de supprimer tout code de débogage de votre soumission finale.
+
+## **What Will I learn?**
+
+# L'API
+
+L’Api que vous créez présente votre première opportunité de rassembler les compétences que vous avez acquises tout au long du cours et de les lier ensemble dans une application couramment utilisée. En plus de consolider vos compétences, vous aurez également la possibilité de résoudre des problèmes et de travailler avec la documentation d'un utilitaire de traitement d'image populaire.
+Voici quelques-unes des questions que vous rencontrerez en cours de route :
+- Quel est le flux de travail idéal ?
+- Comment structurer mon projet ?
+- Comment est-ce que je veux écrire mon TypeScript asynchrone ?
+- De combien de fonctions ai-je besoin pour accomplir cette tâche ?
+- Quels types de choses dois-je tester ?
